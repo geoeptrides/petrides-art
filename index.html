@@ -5,172 +5,361 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>George Petrides — Sculptor</title>
   <meta name="description" content="George Petrides — Monumental figurative sculptor. 30+ public sculptures in 8 countries." />
+
+  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto+Slab:wght@300;400;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
   <style>
-    :root { --bg:#cfcfcf; --dark:#242e39; --text:#777777; --white:#ffffff; --sans:'Open Sans',sans-serif; --slab:'Roboto Slab',serif; }
-    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
-    html{scroll-behavior:smooth;}
-    body{background:var(--bg);font-family:var(--sans);color:var(--text);}
-    #header{position:fixed;top:0;left:0;right:0;z-index:1000;height:72px;background:var(--bg);display:flex;align-items:center;justify-content:space-between;padding:0 40px;}
-    .logo-text{font-family:var(--sans);font-size:1.05rem;font-weight:700;color:var(--dark);text-transform:uppercase;letter-spacing:.08em;text-decoration:none;}
-    .main-nav{list-style:none;display:flex;align-items:center;}
-    .main-nav>li{position:relative;}
-    .main-nav>li>a{display:flex;align-items:center;gap:5px;padding:0 13px;line-height:72px;height:72px;font-size:12px;font-weight:700;text-transform:uppercase;color:var(--dark);text-decoration:none;white-space:nowrap;}
-    .main-nav>li>a:hover{color:var(--text);}
-    .dropdown-menu{display:none;position:absolute;top:72px;left:0;background:var(--dark);min-width:220px;padding:7px 0;list-style:none;z-index:2000;}
-    .main-nav>li:hover .dropdown-menu{display:block;}
-    .dropdown-menu li a{display:block;padding:7px 17px;font-size:12px;font-weight:700;text-transform:uppercase;color:var(--text);text-decoration:none;}
-    .dropdown-menu li a:hover{color:var(--white);}
-    #hero{position:relative;width:100%;height:100vh;overflow:hidden;display:flex;align-items:flex-end;}
-    .hero-fallback{position:absolute;inset:0;z-index:0;background:url('https://images.squarespace-cdn.com/content/v1/68e6712a5f215506d93de9e8/2d4452d8-2d0f-4a90-bcb0-d81407c27700/George_Petrides_Big_Heads_134.jpg?format=2500w') center/cover no-repeat var(--dark);}
-    .yt-wrap{position:absolute;inset:0;z-index:1;pointer-events:none;overflow:hidden;}
-    .yt-wrap iframe{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:177.78vh;height:100vh;min-width:100%;min-height:56.25vw;border:none;}
-    .hero-overlay{position:absolute;inset:0;z-index:2;background:linear-gradient(to top,rgba(0,0,0,.55) 0%,transparent 55%);}
-    .hero-viewmore{position:relative;z-index:3;width:100%;padding:0 40px 48px;display:flex;flex-direction:column;align-items:center;gap:10px;cursor:pointer;}
-    .hero-viewmore span{font-family:var(--sans);font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.12em;color:var(--white);}
-    .hero-arrow{display:block;width:12px;height:12px;border-right:2px solid var(--white);border-bottom:2px solid var(--white);transform:rotate(45deg);}
-    .section-title{font-family:var(--slab);font-size:1.5rem;font-weight:300;color:var(--dark);letter-spacing:.04em;margin-bottom:32px;}
-    #works{padding:80px 40px 60px;}
-    .filter-bar{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:32px;}
-    .filter-btn{font-family:var(--sans);font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;padding:6px 14px;border:1px solid var(--dark);background:transparent;color:var(--dark);cursor:pointer;transition:background .2s,color .2s;}
-    .filter-btn:hover,.filter-btn.active{background:var(--dark);color:var(--white);}
-    .works-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;}
-    .work-card{background:transparent;cursor:pointer;}
-    .work-card img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block;}
-    .work-info{padding:.6rem 0 1rem;background:transparent;}
-    .work-dates{font-size:14px;font-weight:400;color:var(--dark);}
-    .work-title{font-size:13px;font-weight:700;text-transform:uppercase;color:var(--dark);margin-top:2px;}
-    .work-location{font-size:12px;color:var(--text);margin-top:2px;}
-    #bio{background:var(--dark);padding:80px 40px;display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;}
-    #bio img{width:100%;display:block;}
-    .bio-text h2{font-family:var(--slab);font-size:2rem;font-weight:300;color:var(--white);margin-bottom:24px;line-height:1.3;}
-    .bio-text p{font-size:14px;line-height:1.8;color:#aaa;margin-bottom:16px;}
-    .bio-text .btn-outline{display:inline-block;margin-top:8px;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.1em;padding:10px 24px;border:1px solid var(--white);color:var(--white);text-decoration:none;transition:background .2s;}
-    .bio-text .btn-outline:hover{background:var(--white);color:var(--dark);}
-    #exhibitions{padding:80px 40px;}
-    .exhibitions-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;}
-    .exhibition-card img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block;}
-    .exhibition-info{padding:.6rem 0 1rem;}
-    .exhibition-venue{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--text);margin-bottom:4px;}
-    .exhibition-title{font-family:var(--slab);font-size:1.1rem;font-weight:400;color:var(--dark);margin-bottom:6px;}
-    .exhibition-dates{font-size:12px;color:var(--text);}
-    #press{background:var(--dark);padding:80px 40px;}
-    #press .section-title{color:var(--white);}
-    .press-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;}
-    .press-card{border-top:1px solid #444;padding-top:20px;}
-    .press-publication{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--text);margin-bottom:8px;}
-    .press-headline{font-family:var(--slab);font-size:1rem;font-weight:400;color:var(--white);line-height:1.4;margin-bottom:8px;}
-    .press-date{font-size:12px;color:#666;}
-    #videos{padding:80px 40px;}
-    .videos-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;}
-    .video-card iframe{width:100%;aspect-ratio:16/9;border:none;display:block;}
-    .video-title{font-size:12px;font-weight:700;text-transform:uppercase;color:var(--dark);margin-top:8px;}
-    #contact{background:var(--dark);padding:80px 40px;text-align:center;}
-    #contact .section-title{color:var(--white);}
-    #contact p{font-size:14px;color:#aaa;margin-bottom:6px;}
-    #contact a{color:var(--white);text-decoration:none;}
-    footer{background:var(--dark);border-top:1px solid #333;padding:24px 40px;text-align:center;font-size:11px;color:#555;}
-    @media(max-width:900px){.works-grid,.exhibitions-grid,.press-grid,.videos-grid{grid-template-columns:repeat(2,1fr);}#bio{grid-template-columns:1fr;}}
-    @media(max-width:600px){.works-grid,.exhibitions-grid,.press-grid,.videos-grid{grid-template-columns:1fr;}.main-nav{display:none;}}
+    :root {
+      --bg:    #cfcfcf;
+      --dark:  #242e39;
+      --text:  #777777;
+      --white: #ffffff;
+      --sans:  'Open Sans', sans-serif;
+      --slab:  'Roboto Slab', serif;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { background: var(--bg); font-family: var(--sans); color: var(--text); }
+
+    #header {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+      height: 72px; background: var(--bg);
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0 40px;
+    }
+    .logo-text {
+      font-family: var(--sans); font-size: 1.05rem; font-weight: 700;
+      color: var(--dark); text-transform: uppercase; letter-spacing: .08em;
+      text-decoration: none;
+    }
+    .main-nav { list-style: none; display: flex; align-items: center; gap: 0; }
+    .main-nav > li { position: relative; }
+    .main-nav > li > a {
+      display: flex; align-items: center; gap: 5px;
+      padding: 0 13px; line-height: 72px; height: 72px;
+      font-size: 12px; font-weight: 700; text-transform: uppercase;
+      color: var(--dark); text-decoration: none; white-space: nowrap;
+    }
+    .main-nav > li > a:hover { color: var(--text); }
+    .main-nav > li > a .fa { font-size: 10px; }
+    .dropdown-menu {
+      display: none; position: absolute; top: 72px; left: 0;
+      background: var(--dark); min-width: 220px;
+      padding: 7px 0; list-style: none; z-index: 2000;
+    }
+    .main-nav > li:hover .dropdown-menu { display: block; }
+    .dropdown-menu li a {
+      display: block; padding: 7px 17px;
+      font-size: 12px; font-weight: 700; text-transform: uppercase;
+      color: var(--text); text-decoration: none; white-space: nowrap;
+    }
+    .dropdown-menu li a:hover { color: var(--white); }
+
+    #hero {
+      position: relative; width: 100%; height: 100vh;
+      overflow: hidden; display: flex; align-items: flex-end;
+    }
+    .hero-fallback {
+      position: absolute; inset: 0; z-index: 0;
+      background: url('/images/Petrides_Thalia_Bronze_1.jpg') center/cover no-repeat var(--dark);
+    }
+    .yt-wrap {
+      position: absolute; inset: 0; z-index: 1;
+      pointer-events: none; overflow: hidden;
+    }
+    .yt-wrap iframe {
+      position: absolute;
+      top: 50%; left: 50%; transform: translate(-50%, -50%);
+      width: 177.78vh; height: 100vh;
+      min-width: 100%; min-height: 56.25vw; border: none;
+    }
+    .hero-overlay {
+      position: absolute; inset: 0; z-index: 2;
+      background: linear-gradient(to top, rgba(0,0,0,.55) 0%, transparent 55%);
+    }
+    .hero-viewmore {
+      position: relative; z-index: 3;
+      width: 100%; padding: 0 40px 48px;
+      display: flex; flex-direction: column; align-items: center; gap: 10px; cursor: pointer;
+    }
+    .hero-viewmore span {
+      font-family: var(--sans); font-size: 11px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: .12em; color: var(--white);
+    }
+    .hero-arrow {
+      display: block; width: 12px; height: 12px;
+      border-right: 2px solid var(--white); border-bottom: 2px solid var(--white);
+      transform: rotate(45deg);
+    }
+
+    .section-title {
+      font-family: var(--slab); font-size: 1.5rem; font-weight: 300;
+      color: var(--dark); letter-spacing: .04em; margin-bottom: 32px;
+    }
+
+    #works { padding: 80px 40px 60px; }
+    .filter-bar { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 32px; }
+    .filter-btn {
+      font-family: var(--sans); font-size: 11px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: .08em;
+      padding: 6px 14px; border: 1px solid var(--dark);
+      background: transparent; color: var(--dark); cursor: pointer;
+      transition: background .2s, color .2s;
+    }
+    .filter-btn:hover, .filter-btn.active { background: var(--dark); color: var(--white); }
+    .works-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; }
+    .work-card { background: transparent; cursor: pointer; }
+    .work-card img { width: 100%; aspect-ratio: 4/3; object-fit: cover; display: block; }
+    .work-info { padding: .6rem 0 1rem; background: transparent; }
+    .work-dates { font-size: 14px; font-weight: 400; color: var(--dark); }
+    .work-title { font-size: 13px; font-weight: 700; text-transform: uppercase; color: var(--dark); margin-top: 2px; }
+
+    #bio {
+      background: var(--dark); padding: 80px 40px;
+      display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center;
+    }
+    #bio img { width: 100%; display: block; }
+    .bio-text h2 { font-family: var(--slab); font-size: 2rem; font-weight: 300; color: var(--white); margin-bottom: 24px; line-height: 1.3; }
+    .bio-text p { font-size: 14px; line-height: 1.8; color: #aaa; margin-bottom: 16px; }
+    .bio-text .btn-outline {
+      display: inline-block; margin-top: 8px;
+      font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .1em;
+      padding: 10px 24px; border: 1px solid var(--white); color: var(--white);
+      text-decoration: none; transition: background .2s;
+    }
+    .bio-text .btn-outline:hover { background: var(--white); color: var(--dark); }
+
+    #exhibitions { padding: 80px 40px; }
+    .exhibitions-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 15px; }
+    .exhibition-card img { width: 100%; aspect-ratio: 16/9; object-fit: cover; display: block; }
+    .exhibition-info { padding: .6rem 0 1rem; }
+    .exhibition-venue { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: var(--text); margin-bottom: 4px; }
+    .exhibition-title { font-family: var(--slab); font-size: 1.1rem; font-weight: 400; color: var(--dark); margin-bottom: 6px; }
+    .exhibition-dates { font-size: 12px; color: var(--text); }
+
+    #press { background: var(--dark); padding: 80px 40px; }
+    #press .section-title { color: var(--white); }
+    .press-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 15px; }
+    .press-card { border-top: 1px solid #444; padding-top: 20px; }
+    .press-publication { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: var(--text); margin-bottom: 8px; }
+    .press-headline { font-family: var(--slab); font-size: 1rem; font-weight: 400; color: var(--white); line-height: 1.4; margin-bottom: 8px; }
+    .press-date { font-size: 12px; color: #666; }
+
+    #videos { padding: 80px 40px; }
+    .videos-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 15px; }
+    .video-card { position: relative; }
+    .video-card iframe { width: 100%; aspect-ratio: 16/9; border: none; display: block; }
+    .video-title { font-size: 12px; font-weight: 700; text-transform: uppercase; color: var(--dark); margin-top: 8px; }
+
+    #contact { background: var(--dark); padding: 80px 40px; text-align: center; }
+    #contact .section-title { color: var(--white); }
+    #contact p { font-size: 14px; color: #aaa; margin-bottom: 6px; }
+    #contact a { color: var(--white); text-decoration: none; }
+    #contact a:hover { text-decoration: underline; }
+
+    footer { background: var(--dark); border-top: 1px solid #333; padding: 24px 40px; text-align: center; font-size: 11px; color: #555; }
+
+    @media (max-width: 900px) {
+      .works-grid, .exhibitions-grid, .press-grid, .videos-grid { grid-template-columns: repeat(2,1fr); }
+      #bio { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 600px) {
+      .works-grid, .exhibitions-grid, .press-grid, .videos-grid { grid-template-columns: 1fr; }
+      .main-nav { display: none; }
+    }
   </style>
 </head>
 <body>
+
 <header id="header">
   <a href="/" class="logo-text">George Petrides</a>
-  <nav><ul class="main-nav">
-    <li><a href="#works">Works <i class="fa fa-caret-down"></i></a>
-      <ul class="dropdown-menu">
-        <li><a href="#works">Public Sculpture</a></li>
-        <li><a href="#works">Hellenic Heads</a></li>
-        <li><a href="#works">Portraits</a></li>
-        <li><a href="#works">Available Works</a></li>
-        <li><a href="#works">Paintings &amp; Drawings</a></li>
-      </ul></li>
-    <li><a href="#exhibitions">Exhibitions <i class="fa fa-caret-down"></i></a>
-      <ul class="dropdown-menu">
-        <li><a href="#exhibitions">Current</a></li>
-        <li><a href="#exhibitions">Upcoming</a></li>
-        <li><a href="#exhibitions">Past</a></li>
-      </ul></li>
-    <li><a href="#bio">The Artist <i class="fa fa-caret-down"></i></a>
-      <ul class="dropdown-menu">
-        <li><a href="#bio">Biography</a></li>
-        <li><a href="#press">Press</a></li>
-        <li><a href="#bio">Publications</a></li>
-      </ul></li>
-    <li><a href="#videos">Videos</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul></nav>
+  <nav>
+    <ul class="main-nav">
+      <li>
+        <a href="#works">Works <i class="fa fa-caret-down"></i></a>
+        <ul class="dropdown-menu">
+          <li><a href="#works">Sculpture</a></li>
+          <li><a href="#works">Portraits</a></li>
+          <li><a href="#works">Available Works</a></li>
+          <li><a href="#works">Paintings &amp; Drawings</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#exhibitions">Exhibitions <i class="fa fa-caret-down"></i></a>
+        <ul class="dropdown-menu">
+          <li><a href="#exhibitions">Current</a></li>
+          <li><a href="#exhibitions">Upcoming</a></li>
+          <li><a href="#exhibitions">Past</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#bio">The Artist <i class="fa fa-caret-down"></i></a>
+        <ul class="dropdown-menu">
+          <li><a href="#bio">Biography</a></li>
+          <li><a href="#press">Press</a></li>
+        </ul>
+      </li>
+      <li><a href="#videos">Videos</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 </header>
+
 <section id="hero">
   <div class="hero-fallback"></div>
-  <div class="yt-wrap"><iframe src="https://www.youtube.com/embed/?listType=user_uploads&list=PetridesArt&autoplay=1&mute=1&loop=1&controls=0&rel=0&playsinline=1&modestbranding=1" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+  <div class="yt-wrap">
+    <iframe src="https://www.youtube.com/embed/?listType=user_uploads&list=PetridesArt&autoplay=1&mute=1&loop=1&controls=0&showinfo=0&rel=0&playsinline=1&modestbranding=1" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </div>
   <div class="hero-overlay"></div>
   <div class="hero-viewmore" onclick="document.getElementById('works').scrollIntoView({behavior:'smooth'})">
     <span>View More</span><i class="hero-arrow"></i>
   </div>
 </section>
+
 <section id="works">
   <h2 class="section-title">Works</h2>
   <div class="filter-bar">
     <button class="filter-btn active" onclick="filterWorks('all',this)">All</button>
-    <button class="filter-btn" onclick="filterWorks('public',this)">Public Sculpture</button>
-    <button class="filter-btn" onclick="filterWorks('hellenic',this)">Hellenic Heads</button>
+    <button class="filter-btn" onclick="filterWorks('sculpture',this)">Sculpture</button>
     <button class="filter-btn" onclick="filterWorks('portrait',this)">Portraits</button>
     <button class="filter-btn" onclick="filterWorks('available',this)">Available Works</button>
     <button class="filter-btn" onclick="filterWorks('painting',this)">Paintings &amp; Drawings</button>
   </div>
   <div class="works-grid" id="works-grid">
-    <div class="work-card" data-cat="public"><img src="https://images.squarespace-cdn.com/content/v1/68e6712a5f215506d93de9e8/2d4452d8-2d0f-4a90-bcb0-d81407c27700/George_Petrides_Big_Heads_134.jpg?format=1500w" alt="Hellenic Heads" loading="lazy"/><div class="work-info"><div class="work-dates">2024–2026</div><div class="work-title">Hellenic Heads</div><div class="work-location">Paris · Berlin · London</div></div></div>
-    <div class="work-card" data-cat="public"><img src="https://images.squarespace-cdn.com/content/v1/68e6712a5f215506d93de9e8/c7e67c18-6daa-4ef4-a455-cba5b1b2ef4d/George_Petrides_Tiffany_Landmark.jpg?format=1500w" alt="Tiffany Landmark" loading="lazy"/><div class="work-info"><div class="work-dates">2018</div><div class="work-title">Tiffany — Landmark</div><div class="work-location">New York</div></div></div>
-    <div class="work-card" data-cat="public"><img src="https://images.squarespace-cdn.com/content/v1/68e6712a5f215506d93de9e8/George_Petrides_Man_of_Two_Wars.jpg?format=1500w" alt="Man of Two Wars" loading="lazy"/><div class="work-info"><div class="work-dates">2022</div><div class="work-title">Man of Two Wars</div><div class="work-location">Embassy of Greece, Washington DC</div></div></div>
-    <div class="work-card" data-cat="portrait"><img src="https://images.squarespace-cdn.com/content/v1/68e6712a5f215506d93de9e8/George_Petrides_KORE.jpg?format=1500w" alt="KORE" loading="lazy"/><div class="work-info"><div class="work-dates">2021</div><div class="work-title">KORE</div><div class="work-location">New York</div></div></div>
-    <div class="work-card" data-cat="public"><img src="https://images.squarespace-cdn.com/content/v1/68e6712a5f215506d93de9e8/George_Petrides_Davy_Crockett.jpg?format=1500w" alt="Davy Crockett" loading="lazy"/><div class="work-info"><div class="work-dates">2023</div><div class="work-title">Davy Crockett</div><div class="work-location">White House Gift Office, Washington DC</div></div></div>
-    <div class="work-card" data-cat="public"><img src="https://images.squarespace-cdn.com/content/v1/68e6712a5f215506d93de9e8/George_Petrides_Aretaieion.jpg?format=1500w" alt="Aretaieion Hospital" loading="lazy"/><div class="work-info"><div class="work-dates">2019</div><div class="work-title">Aretaieion Hospital</div><div class="work-location">Athens, Greece</div></div></div>
+    <div class="work-card" data-cat="sculpture"><img src="/images/Petrides_Thalia_Bronze_1.jpg" alt="Thalia II Bust, 2023" loading="lazy"/><div class="work-info"><div class="work-dates">2023</div><div class="work-title">Thalia II Bust</div></div></div>
+    <div class="work-card" data-cat="portrait"><img src="/images/George_Petrides_Sculptures_Stills_214.jpg" alt="Aarron According to Garth, 2023" loading="lazy"/><div class="work-info"><div class="work-dates">2023</div><div class="work-title">Aarron According to Garth</div></div></div>
+    <div class="work-card" data-cat="sculpture"><img src="/images/_SIM8113-internet.jpg" alt="Torso of Delos I, 2023" loading="lazy"/><div class="work-info"><div class="work-dates">2023</div><div class="work-title">Torso of Delos I</div></div></div>
+    <div class="work-card" data-cat="sculpture"><img src="/images/_SIM8457-internet.jpg" alt="Kore of Delos, 2022" loading="lazy"/><div class="work-info"><div class="work-dates">2022</div><div class="work-title">Kore of Delos</div></div></div>
+    <div class="work-card" data-cat="portrait"><img src="/images/_SIM8230-internet_copy.jpg" alt="Adele Enciente, 2021" loading="lazy"/><div class="work-info"><div class="work-dates">2021</div><div class="work-title">Adele Enciente</div></div></div>
+    <div class="work-card" data-cat="sculpture"><img src="/images/01W.jpg" alt="Clio Head Gold, 2021" loading="lazy"/><div class="work-info"><div class="work-dates">2021</div><div class="work-title">Clio Head Gold</div></div></div>
+    <div class="work-card" data-cat="portrait"><img src="/images/GeorgePetrides_SIM9437-internet.jpg" alt="Frances of Auxerre I, 2021" loading="lazy"/><div class="work-info"><div class="work-dates">2021</div><div class="work-title">Frances of Auxerre I</div></div></div>
+    <div class="work-card" data-cat="sculpture"><img src="/images/G_Petridis_SIM2840_.jpg" alt="Greek Man of the 1940s, 2021" loading="lazy"/><div class="work-info"><div class="work-dates">2021</div><div class="work-title">Greek Man of the 1940s</div></div></div>
+    <div class="work-card" data-cat="sculpture"><img src="/images/Petrides_Litigator_1.jpg" alt="Litigator at Rest, 2021" loading="lazy"/><div class="work-info"><div class="work-dates">2021</div><div class="work-title">Litigator at Rest</div></div></div>
+    <div class="work-card" data-cat="portrait"><img src="/images/_SIM8152-internet.jpg" alt="Maxwell, 2021" loading="lazy"/><div class="work-info"><div class="work-dates">2021</div><div class="work-title">Maxwell</div></div></div>
+    <div class="work-card" data-cat="portrait"><img src="/images/GeorgePetridis_SIM4070_-internet.jpg" alt="Sarah as the Dying Gaul, 2021" loading="lazy"/><div class="work-info"><div class="work-dates">2021</div><div class="work-title">Sarah as the Dying Gaul</div></div></div>
+    <div class="work-card" data-cat="sculpture"><img src="/images/George_Petrides_Sculptures_Stills_071.jpg" alt="Yuna Meditating, 2021" loading="lazy"/><div class="work-info"><div class="work-dates">2021</div><div class="work-title">Yuna Meditating</div></div></div>
+    <div class="work-card" data-cat="sculpture"><img src="/images/_SIM8254-internet.jpg" alt="Yuna Perplexed, 2021" loading="lazy"/><div class="work-info"><div class="work-dates">2021</div><div class="work-title">Yuna Perplexed</div></div></div>
+    <div class="work-card" data-cat="available"><img src="/images/_SIM4777_.jpg" alt="Ajitto, 2022" loading="lazy"/><div class="work-info"><div class="work-dates">2022</div><div class="work-title">Ajitto</div></div></div>
+    <div class="work-card" data-cat="available"><img src="/images/G_Petridis_SIM2887_.jpg" alt="Head of Thalia II, 2022" loading="lazy"/><div class="work-info"><div class="work-dates">2022</div><div class="work-title">Head of Thalia II</div></div></div>
+    <div class="work-card" data-cat="available"><img src="/images/_SIM8348-internet_edited.png" alt="Gregorio of the Garifuna, 2022" loading="lazy"/><div class="work-info"><div class="work-dates">2022</div><div class="work-title">Gregorio of the Garifuna</div></div></div>
+    <div class="work-card" data-cat="available"><img src="/images/Torso_of_Anastasia_2022.jpg" alt="Torso of Anastasia, 2022" loading="lazy"/><div class="work-info"><div class="work-dates">2022</div><div class="work-title">Torso of Anastasia</div></div></div>
+    <div class="work-card" data-cat="available"><img src="/images/_SIM8348-internet_2_edited.png" alt="Alex Withdrawn, 2021" loading="lazy"/><div class="work-info"><div class="work-dates">2021</div><div class="work-title">Alex Withdrawn</div></div></div>
+    <div class="work-card" data-cat="available"><img src="/images/_SIM8348-internet_1_edited.png" alt="Fiona's Choice, 2021" loading="lazy"/><div class="work-info"><div class="work-dates">2021</div><div class="work-title">Fiona's Choice</div></div></div>
+    <div class="work-card" data-cat="portrait"><img src="/images/web_03._2025-11-12_16-56-55__B_R8_S4__copy_copy_2.jpg" alt="Court Tennis Serve I, 2025" loading="lazy"/><div class="work-info"><div class="work-dates">2025</div><div class="work-title">Court Tennis Serve I</div></div></div>
+    <div class="work-card" data-cat="portrait"><img src="/images/_DSC5875__grey3_copy_2.jpg" alt="Davy Crockett at The Alamo, 2025" loading="lazy"/><div class="work-info"><div class="work-dates">2025</div><div class="work-title">Davy Crockett at The Alamo</div></div></div>
+    <div class="work-card" data-cat="portrait"><img src="/images/GOLD_GREY_01.jpg" alt="Angelina Gold, 2023" loading="lazy"/><div class="work-info"><div class="work-dates">2023</div><div class="work-title">Angelina Gold</div></div></div>
+    <div class="work-card" data-cat="painting"><img src="/images/Marathon_Man.jpg" alt="Marathon Man, 2023" loading="lazy"/><div class="work-info"><div class="work-dates">2023</div><div class="work-title">Marathon Man</div></div></div>
+    <div class="work-card" data-cat="painting"><img src="/images/Petrides_After_Cezanne_s_Bathers.jpg" alt="After Cezanne's Bathers, 2022" loading="lazy"/><div class="work-info"><div class="work-dates">2022</div><div class="work-title">After Cézanne's Bathers</div></div></div>
+    <div class="work-card" data-cat="painting"><img src="/images/Petrides_Black_Pharoah.jpg" alt="Black Pharaoh, 2022" loading="lazy"/><div class="work-info"><div class="work-dates">2022</div><div class="work-title">Black Pharaoh</div></div></div>
+    <div class="work-card" data-cat="painting"><img src="/images/Petrides_Erica_and_Friend.jpg" alt="Erica and Friend, 2022" loading="lazy"/><div class="work-info"><div class="work-dates">2022</div><div class="work-title">Erica and Friend</div></div></div>
+    <div class="work-card" data-cat="painting"><img src="/images/Petrides_Four_Poses_Chez_Joe.jpg" alt="Four Poses Chez Joe, 2021" loading="lazy"/><div class="work-info"><div class="work-dates">2021</div><div class="work-title">Four Poses Chez Joe</div></div></div>
+    <div class="work-card" data-cat="painting"><img src="/images/Petrides_Narcissa.jpg" alt="Narcissa, 2021" loading="lazy"/><div class="work-info"><div class="work-dates">2021</div><div class="work-title">Narcissa</div></div></div>
+    <div class="work-card" data-cat="painting"><img src="/images/Nicole-Napping_copy.jpg" alt="Nicole Napping, 2021" loading="lazy"/><div class="work-info"><div class="work-dates">2021</div><div class="work-title">Nicole Napping</div></div></div>
+    <div class="work-card" data-cat="painting"><img src="/images/Petrides_Emily_Untitled_Film_Still.jpg" alt="Emily, Untitled Film Still, 2020" loading="lazy"/><div class="work-info"><div class="work-dates">2020</div><div class="work-title">Emily, Untitled Film Still</div></div></div>
+    <div class="work-card" data-cat="painting"><img src="/images/Sarah_at_the_League_I.jpg" alt="Sarah at the League I, 2019" loading="lazy"/><div class="work-info"><div class="work-dates">2019</div><div class="work-title">Sarah at the League I</div></div></div>
   </div>
 </section>
+
 <section id="bio">
-  <img src="https://images.squarespace-cdn.com/content/v1/68e6712a5f215506d93de9e8/2d4452d8-2d0f-4a90-bcb0-d81407c27700/George_Petrides_Big_Heads_134.jpg?format=1500w" alt="George Petrides"/>
+  <img src="/images/GeorgePetrides_SIM9437-internet.jpg" alt="George Petrides in studio" />
   <div class="bio-text">
     <h2>30 monumental sculptures.<br>8 countries.</h2>
-    <p>George Petrides is a New York–based monumental figurative sculptor whose work spans public commissions, traveling exhibitions, and private collections across Europe, the Americas, and the Middle East.</p>
-    <p>“Globally-renowned sculptor George Petrides carves a ‘matriarchal gaze’ into Greek history, weaving together personal memory, ancient craftsmanship and modern innovation.” — Forbes Magazine</p>
+    <p>George Petrides is a New York-based monumental figurative sculptor whose work spans public commissions, traveling exhibitions, and private collections across Europe, the Americas, and the Middle East.</p>
+    <p>"Globally-renowned sculptor George Petrides carves a 'matriarchal gaze' into Greek history, weaving together personal memory, ancient craftsmanship and modern innovation." — <em>Forbes Magazine</em></p>
     <a href="#contact" class="btn-outline">Commissions from $150K</a>
   </div>
 </section>
+
 <section id="exhibitions">
   <h2 class="section-title">Exhibitions</h2>
   <div class="exhibitions-grid">
-    <div class="exhibition-card"><img src="https://images.squarespace-cdn.com/content/v1/68e6712a5f215506d93de9e8/2d4452d8-2d0f-4a90-bcb0-d81407c27700/George_Petrides_Big_Heads_134.jpg?format=1500w" alt="Paris" loading="lazy"/><div class="exhibition-info"><div class="exhibition-venue">Embassy of Greece · Paris</div><div class="exhibition-title">Hellenic Heads: Legacy and Renewal</div><div class="exhibition-dates">January 22 – May 22, 2026</div></div></div>
-    <div class="exhibition-card"><img src="https://images.squarespace-cdn.com/content/v1/68e6712a5f215506d93de9e8/2d4452d8-2d0f-4a90-bcb0-d81407c27700/George_Petrides_Big_Heads_134.jpg?format=1500w" alt="Berlin" loading="lazy"/><div class="exhibition-info"><div class="exhibition-venue">Berlin · Upcoming</div><div class="exhibition-title">Hellenic Heads: Legacy and Renewal</div><div class="exhibition-dates">Opens September 9, 2026</div></div></div>
-    <div class="exhibition-card"><img src="https://images.squarespace-cdn.com/content/v1/68e6712a5f215506d93de9e8/George_Petrides_Embassy_Rome.jpg?format=1500w" alt="Rome" loading="lazy"/><div class="exhibition-info"><div class="exhibition-venue">Embassy of Greece · Rome</div><div class="exhibition-title">Permanent Installation</div><div class="exhibition-dates">Installed 2022</div></div></div>
+    <div class="exhibition-card">
+      <img src="/images/Petrides_Thalia_Bronze_1.jpg" alt="Hellenic Heads Paris" loading="lazy"/>
+      <div class="exhibition-info">
+        <div class="exhibition-venue">Embassy of Greece · Paris</div>
+        <div class="exhibition-title">Hellenic Heads: Legacy and Renewal</div>
+        <div class="exhibition-dates">January 22 – May 22, 2026</div>
+      </div>
+    </div>
+    <div class="exhibition-card">
+      <img src="/images/G_Petridis_SIM2840_.jpg" alt="Hellenic Heads Berlin" loading="lazy"/>
+      <div class="exhibition-info">
+        <div class="exhibition-venue">Berlin · Upcoming</div>
+        <div class="exhibition-title">Hellenic Heads: Legacy and Renewal</div>
+        <div class="exhibition-dates">Opens September 9, 2026</div>
+      </div>
+    </div>
+    <div class="exhibition-card">
+      <img src="/images/GeorgePetrides_SIM9437-internet.jpg" alt="Embassy Rome" loading="lazy"/>
+      <div class="exhibition-info">
+        <div class="exhibition-venue">Embassy of Greece · Rome</div>
+        <div class="exhibition-title">Permanent Installation</div>
+        <div class="exhibition-dates">Installed 2022</div>
+      </div>
+    </div>
   </div>
 </section>
+
 <section id="press">
   <h2 class="section-title">Press</h2>
   <div class="press-grid">
-    <div class="press-card"><div class="press-publication">Forbes Magazine</div><div class="press-headline">“Globally-renowned sculptor George Petrides carves a ‘matriarchal gaze’ into Greek history”</div><div class="press-date">2024</div></div>
-    <div class="press-card"><div class="press-publication">Le Monde</div><div class="press-headline">Hellenic Heads at the Embassy of Greece in Paris</div><div class="press-date">January 2026</div></div>
-    <div class="press-card"><div class="press-publication">The Art Newspaper</div><div class="press-headline">Petrides brings monumental Greek figuration to European capitals</div><div class="press-date">2025</div></div>
+    <div class="press-card">
+      <div class="press-publication">Forbes Magazine</div>
+      <div class="press-headline">"Globally-renowned sculptor George Petrides carves a 'matriarchal gaze' into Greek history"</div>
+      <div class="press-date">2024</div>
+    </div>
+    <div class="press-card">
+      <div class="press-publication">Le Monde</div>
+      <div class="press-headline">Hellenic Heads at the Embassy of Greece in Paris</div>
+      <div class="press-date">January 2026</div>
+    </div>
+    <div class="press-card">
+      <div class="press-publication">The Art Newspaper</div>
+      <div class="press-headline">Petrides brings monumental Greek figuration to European capitals</div>
+      <div class="press-date">2025</div>
+    </div>
   </div>
 </section>
+
 <section id="videos">
   <h2 class="section-title">Videos</h2>
   <div class="videos-grid">
-    <div class="video-card"><iframe src="https://www.youtube.com/embed/?listType=user_uploads&list=PetridesArt&index=1&controls=1&rel=0&modestbranding=1" allow="encrypted-media" allowfullscreen></iframe><div class="video-title">Studio Process</div></div>
-    <div class="video-card"><iframe src="https://www.youtube.com/embed/?listType=user_uploads&list=PetridesArt&index=2&controls=1&rel=0&modestbranding=1" allow="encrypted-media" allowfullscreen></iframe><div class="video-title">Hellenic Heads — Exhibition</div></div>
-    <div class="video-card"><iframe src="https://www.youtube.com/embed/?listType=user_uploads&list=PetridesArt&index=3&controls=1&rel=0&modestbranding=1" allow="encrypted-media" allowfullscreen></iframe><div class="video-title">Man of Two Wars</div></div>
+    <div class="video-card">
+      <iframe src="https://www.youtube.com/embed/placeholder1?controls=1&rel=0&modestbranding=1" allow="encrypted-media" allowfullscreen></iframe>
+      <div class="video-title">Studio Process</div>
+    </div>
+    <div class="video-card">
+      <iframe src="https://www.youtube.com/embed/placeholder2?controls=1&rel=0&modestbranding=1" allow="encrypted-media" allowfullscreen></iframe>
+      <div class="video-title">Hellenic Heads — Exhibition</div>
+    </div>
+    <div class="video-card">
+      <iframe src="https://www.youtube.com/embed/placeholder3?controls=1&rel=0&modestbranding=1" allow="encrypted-media" allowfullscreen></iframe>
+      <div class="video-title">Man of Two Wars</div>
+    </div>
   </div>
 </section>
+
 <section id="contact">
   <h2 class="section-title">Contact</h2>
   <p>Studio inquiries, commissions, and press</p>
   <p><a href="mailto:george@petrides.art">george@petrides.art</a></p>
-  <p style="margin-top:16px;font-size:12px;color:#555;">Long Island City, New York · Athens, Greece</p>
+  <p style="margin-top:16px; font-size:12px; color:#555;">Long Island City, New York &nbsp;·&nbsp; Athens, Greece</p>
 </section>
+
 <footer>© 2026 George Petrides. All rights reserved.</footer>
-<script>function filterWorks(cat,btn){document.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active'));btn.classList.add('active');document.querySelectorAll('.work-card').forEach(card=>{card.style.display=(cat==='all'||card.dataset.cat===cat)?'':'none';});}</script>
-</body></html>
+
+<script>
+  function filterWorks(cat, btn) {
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    document.querySelectorAll('.work-card').forEach(card => {
+      card.style.display = (cat === 'all' || card.dataset.cat === cat) ? '' : 'none';
+    });
+  }
+</script>
+</body>
+</html>
