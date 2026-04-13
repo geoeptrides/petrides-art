@@ -1,0 +1,59 @@
+backend:
+  name: github
+  repo: geoeptrides/petrides-art
+  branch: main
+
+media_folder: "static/images"
+public_folder: "/static/images"
+
+collections:
+
+  - name: "works"
+    label: "Works"
+    folder: "_data/works"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Year", name: "year", widget: "string" }
+      - { label: "Category", name: "category", widget: "select",
+          options: ["public", "hellenic", "portrait", "available", "painting"] }
+      - { label: "Location", name: "location", widget: "string", required: false }
+      - { label: "Image URL", name: "image", widget: "string",
+          hint: "Paste a Google Drive or Squarespace image URL" }
+      - { label: "Description", name: "description", widget: "text", required: false }
+
+  - name: "exhibitions"
+    label: "Exhibitions"
+    folder: "_data/exhibitions"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Venue", name: "venue", widget: "string" }
+      - { label: "Dates", name: "dates", widget: "string" }
+      - { label: "Status", name: "status", widget: "select",
+          options: ["current", "upcoming", "past"] }
+      - { label: "Image URL", name: "image", widget: "string" }
+      - { label: "Description", name: "description", widget: "text", required: false }
+
+  - name: "press"
+    label: "Press"
+    folder: "_data/press"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Publication", name: "publication", widget: "string" }
+      - { label: "Headline", name: "headline", widget: "string" }
+      - { label: "Date", name: "date", widget: "string" }
+      - { label: "URL", name: "url", widget: "string", required: false }
+
+  - name: "videos"
+    label: "Videos"
+    folder: "_data/videos"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "YouTube URL", name: "youtube_url", widget: "string" }
+      - { label: "Description", name: "description", widget: "text", required: false }
