@@ -1,3 +1,2 @@
 User-agent: *
 Allow: /
-Sitemap: https://jefferson-athens.info/sitemap.xml
