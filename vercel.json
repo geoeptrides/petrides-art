@@ -1,0 +1,64 @@
+{
+  "headers": [
+    {
+      "source": "/img/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=(), payment=()"
+        }
+      ]
+    },
+    {
+      "source": "/artist-profile/(.*)",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
+      ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/works/man-of-two-wars-ii.html",
+      "destination": "/works/",
+      "permanent": true
+    },
+    {
+      "source": "/el/works/man-of-two-wars-ii.html",
+      "destination": "/el/works/",
+      "permanent": true
+    },
+    {
+      "source": "/ar/works/man-of-two-wars-ii.html",
+      "destination": "/ar/works/",
+      "permanent": true
+    }
+  ]
+}

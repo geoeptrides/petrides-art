@@ -1,0 +1,3 @@
+window.va=window.va||function(){(window.vaq=window.vaq||[]).push(arguments);};
+// Only categorical outcomes are recorded; inquiry contents and email addresses are excluded.
+document.addEventListener('click',event=>{const link=event.target.closest('a[href]');if(!link)return;let url;try{url=new URL(link.href)}catch{return}if(url.origin===location.origin&&/\/assets\/(petrides-commissioning-dossier|petrides-technical-planning-pack|petrides-commissioning-summary-(en|el|ar))\.pdf$/.test(url.pathname)){window.va('event',{name:'Commissioning resource opened',data:{resource:url.pathname.split('/').pop(),language:document.documentElement.lang}})}});

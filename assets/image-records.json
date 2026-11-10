@@ -1,0 +1,26 @@
+{
+  "updated": "2026-10-19",
+  "images": [
+    {
+      "id": "artist-portrait",
+      "path": "/artist-profile/portrait.png",
+      "caption": "George Petrides in his studio beside a sculpted head.",
+      "source": "Petrides Studio archive",
+      "photographer": null,
+      "publication_permission": "Approved by George Petrides for press publication.",
+      "photograph_type": "Studio photograph",
+      "credit": "Courtesy of Petrides Studio",
+      "permission_confirmed_on": "2026-10-19"
+    },
+    {
+      "id": "aretaieia-installation",
+      "path": "/img/aretaieia.jpg",
+      "caption": "Aretaieia at the entrance of Aretaieion University Hospital, Athens.",
+      "source": "Petrides Studio archive",
+      "photographer": "Christos Simatos",
+      "publication_permission": "Approved by George Petrides for press publication.",
+      "credit": "Photograph: Christos Simatos",
+      "permission_confirmed_on": "2026-10-19"
+    }
+  ]
+}

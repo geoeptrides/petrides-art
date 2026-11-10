@@ -1,0 +1,701 @@
+{
+  "updated": "2026-10-21",
+  "records": [
+    {
+      "slug": "deisis",
+      "title": "Deisis",
+      "spec": {
+        "Reference": "PPS-1",
+        "Collection": "Apartment building, Filothei",
+        "Sector": "Residential",
+        "Year": "2020",
+        "Status": "Installed",
+        "Material": "Custom blue patina over brass metal coating over PETG",
+        "Height": "To be confirmed by the studio",
+        "Max. width": "To be confirmed by the studio",
+        "Depth": "To be confirmed by the studio"
+      },
+      "url": "/works/deisis.html"
+    },
+    {
+      "slug": "thalia-ii-in-nightingale-silver-and-navy",
+      "title": "Thalia II in Nightingale Team Colors (Silver and Navy Blue)",
+      "spec": {
+        "Reference": "PPS-2",
+        "Collection": "Nightingale-Bamford School",
+        "Sector": "Educational",
+        "Year": "2022",
+        "Status": "Installed",
+        "Height": "58–65 cm",
+        "Max. width": "33 cm",
+        "Material": "Custom patina over aluminium metal coating over recycled plastic",
+        "Depth": "To be confirmed by the studio"
+      },
+      "url": "/works/thalia-ii-in-nightingale-silver-and-navy.html"
+    },
+    {
+      "slug": "refugee-woman-of-smyrna",
+      "title": "Refugee — Woman of Smyrna",
+      "spec": {
+        "Reference": "PPS-3",
+        "Collection": "Agiou Georgiou Square, Municipality of Neo Psychiko",
+        "Sector": "Government",
+        "Year": "2022",
+        "Status": "Installed",
+        "Height": "132 cm excl. base",
+        "Max. width": "100 cm",
+        "Material": "Bronze metal coating with custom patina over a PETG body",
+        "Depth": "To be confirmed by the studio"
+      },
+      "url": "/works/refugee-woman-of-smyrna.html"
+    },
+    {
+      "slug": "bust-of-thalia-embassy-of-greece-washington",
+      "title": "Bust of Thalia: The Foundation of Western Civilization",
+      "spec": {
+        "Reference": "PPS-4",
+        "Collection": "Embassy of Greece, Washington DC",
+        "Sector": "Government",
+        "Year": "2022",
+        "Status": "Installed",
+        "Height": "69 cm",
+        "Material": "Custom patina over cast bronze",
+        "Max. width": "To be confirmed by the studio",
+        "Depth": "To be confirmed by the studio"
+      },
+      "url": "/works/bust-of-thalia-embassy-of-greece-washington.html"
+    },
+    {
+      "slug": "refugee-woman-of-smyrna-izmir",
+      "title": "Refugee — Woman of Smyrna (Reduction)",
+      "spec": {
+        "Reference": "PPS-5",
+        "Collection": "Consulate of Greece, Izmir",
+        "Sector": "Government",
+        "Year": "2022",
+        "Status": "Installed",
+        "Height": "65 cm",
+        "Material": "Brass metal coating",
+        "Max. width": "To be confirmed by the studio",
+        "Depth": "To be confirmed by the studio"
+      },
+      "url": "/works/refugee-woman-of-smyrna-izmir.html"
+    },
+    {
+      "slug": "head-of-thalia-malliotis",
+      "title": "Head of Thalia (Copper with Green Patina)",
+      "spec": {
+        "Reference": "PPS-6",
+        "Collection": "Malliotis Cultural Center",
+        "Sector": "Museum",
+        "Year": "2022",
+        "Status": "Installed",
+        "Material": "Copper",
+        "Height": "To be confirmed by the studio",
+        "Max. width": "To be confirmed by the studio",
+        "Depth": "To be confirmed by the studio"
+      },
+      "url": "/works/head-of-thalia-malliotis.html"
+    },
+    {
+      "slug": "the-refugee-the-muses",
+      "title": "The Refugee",
+      "spec": {
+        "Reference": "PPS-7",
+        "Collection": "The Muses",
+        "Sector": "Museum",
+        "Year": "2022",
+        "Status": "Installed",
+        "Material": "Bronze metal coating",
+        "Height": "To be confirmed by the studio",
+        "Max. width": "To be confirmed by the studio",
+        "Depth": "To be confirmed by the studio"
+      },
+      "url": "/works/the-refugee-the-muses.html"
+    },
+    {
+      "slug": "head-of-thalia-ii",
+      "title": "Head of Thalia II (Tiffany Blue)",
+      "spec": {
+        "Reference": "PPS-8",
+        "Collection": "Tiffany & Co., The Landmark",
+        "Sector": "Corporate",
+        "Year": "2022",
+        "Status": "Installed",
+        "Installed": "2023",
+        "Height": "38 cm",
+        "Max. width": "43 cm",
+        "Material": "Tiffany blue patina over cast bronze",
+        "Depth": "To be confirmed by the studio"
+      },
+      "url": "/works/head-of-thalia-ii.html"
+    },
+    {
+      "slug": "bust-of-thalia-i-tiffany-madrid",
+      "title": "Bust of Thalia I (Tiffany Blue)",
+      "spec": {
+        "Reference": "PPS-9",
+        "Collection": "Tiffany & Co. Madrid",
+        "Sector": "Corporate",
+        "Year": "2024",
+        "Status": "Installed",
+        "Material": "Tiffany blue patina over brass coating over mixed media",
+        "Height": "To be confirmed by the studio",
+        "Max. width": "To be confirmed by the studio",
+        "Depth": "To be confirmed by the studio"
+      },
+      "url": "/works/bust-of-thalia-i-tiffany-madrid.html"
+    },
+    {
+      "slug": "archon-ii-venice",
+      "title": "Archon II (Reduction)",
+      "spec": {
+        "Reference": "PPS-10",
+        "Collection": "Hellenic Institute of Byzantine and Post-Byzantine Studies",
+        "Sector": "Educational",
+        "Year": "2024",
+        "Status": "Installed",
+        "Material": "Bronze-patinated metal coating over recycled plastic",
+        "Height": "To be confirmed by the studio",
+        "Max. width": "To be confirmed by the studio",
+        "Depth": "To be confirmed by the studio"
+      },
+      "url": "/works/archon-ii-venice.html"
+    },
+    {
+      "slug": "bust-of-thalia-ii-embassy-of-greece-rome",
+      "title": "Bust of Thalia II (Bronze)",
+      "spec": {
+        "Reference": "PPS-11",
+        "Collection": "Embassy of Greece, Rome",
+        "Sector": "Government",
+        "Year": "2024",
+        "Status": "Installed",
+        "Height": "76 cm",
+        "Material": "Custom patina and metal coating",
+        "Max. width": "To be confirmed by the studio",
+        "Depth": "To be confirmed by the studio"
+      },
+      "url": "/works/bust-of-thalia-ii-embassy-of-greece-rome.html"
+    },
+    {
+      "slug": "aretaieia",
+      "title": "Aretaieia",
+      "spec": {
+        "Reference": "PPS-12",
+        "Collection": "Aretaieion University Hospital",
+        "Sector": "Healthcare",
+        "Year": "2024",
+        "Status": "Installed",
+        "Height": "220 cm excl. base",
+        "Max. width": "80 cm",
+        "Material": "Gold patina and metal coating over recycled plastic",
+        "Depth": "To be confirmed by the studio"
+      },
+      "url": "/works/aretaieia.html"
+    },
+    {
+      "slug": "man-of-two-wars-i-jewish-museum",
+      "title": "Man of Two Wars I (Reduction)",
+      "spec": {
+        "Reference": "PPS-13",
+        "Collection": "Jewish Museum of Greece",
+        "Sector": "Museum",
+        "Year": "2024",
+        "Status": "Installed",
+        "Height": "43 cm",
+        "Max. width": "25 cm",
+        "Material": "Hand-burnished, patinated metal coating over resin",
+        "Depth": "To be confirmed by the studio"
+      },
+      "url": "/works/man-of-two-wars-i-jewish-museum.html"
+    },
+    {
+      "slug": "mother-and-child-abstract",
+      "title": "Mother and Child, Abstract",
+      "spec": {
+        "Reference": "PPS-14",
+        "Collection": "Consulate General of Greece, New York",
+        "Sector": "Government",
+        "Year": "2025",
+        "Status": "Installed",
+        "Material": "Aluminium metal coating over recycled plastic",
+        "Height": "To be confirmed by the studio",
+        "Max. width": "To be confirmed by the studio",
+        "Depth": "To be confirmed by the studio"
+      },
+      "url": "/works/mother-and-child-abstract.html"
+    },
+    {
+      "slug": "aretaieia-reduction-nkua",
+      "title": "Aretaieia (Reduction)",
+      "spec": {
+        "Reference": "PPS-15",
+        "Collection": "School of Medicine (English-language program), National and Kapodistrian University of Athens",
+        "Sector": "Educational",
+        "Year": "2025",
+        "Status": "Installed",
+        "Height": "80 cm",
+        "Max. width": "31 cm",
+        "Material": "Gold patina over recycled PETG",
+        "Depth": "To be confirmed by the studio"
+      },
+      "url": "/works/aretaieia-reduction-nkua.html"
+    },
+    {
+      "slug": "head-of-thalia-gold-jefferson-house",
+      "title": "Head of Thalia (Gold)",
+      "spec": {
+        "Reference": "PPS-16",
+        "Collection": "Jefferson House, Residence of the U.S. Ambassador to Greece",
+        "Sector": "Government",
+        "Year": "2025",
+        "Status": "Installed",
+        "Material": "White-gold patina and metal coating over PETG",
+        "Height": "To be confirmed by the studio",
+        "Max. width": "To be confirmed by the studio",
+        "Depth": "To be confirmed by the studio"
+      },
+      "url": "/works/head-of-thalia-gold-jefferson-house.html"
+    },
+    {
+      "slug": "kore-iii-permanent-mission-un",
+      "title": "Kore III — In Honor of Greece on UN Security Council 2025–2026",
+      "spec": {
+        "Reference": "PPS-17",
+        "Collection": "Permanent Mission of Greece to the United Nations",
+        "Sector": "Government",
+        "Year": "2025",
+        "Status": "Installed",
+        "Height": "75 cm",
+        "Max. width": "57 cm",
+        "Material": "Brass and gold metal coatings over a resin face and 3D-printed recycled PETG",
+        "Depth": "To be confirmed by the studio"
+      },
+      "url": "/works/kore-iii-permanent-mission-un.html"
+    },
+    {
+      "slug": "constantine-imvriaki-enosi",
+      "title": "Constantine and the Vision of the Cross (Reduction)",
+      "spec": {
+        "Reference": "PPS-18",
+        "Collection": "Imvriaki Enosi (Retirement Home)",
+        "Sector": "Healthcare",
+        "Year": "2025",
+        "Status": "Installed",
+        "Material": "Brass coating on the head and bronze coating on the body",
+        "Height": "To be confirmed by the studio",
+        "Max. width": "To be confirmed by the studio",
+        "Depth": "To be confirmed by the studio",
+        "Setting type": "Retirement home"
+      },
+      "url": "/works/constantine-imvriaki-enosi.html"
+    },
+    {
+      "slug": "constantine-the-great-sismanogleio",
+      "title": "Constantine the Great (Istanbul)",
+      "spec": {
+        "Reference": "PPS-19",
+        "Collection": "Sismanogleio Mansion",
+        "Sector": "Museum",
+        "Year": "2025",
+        "Status": "Installed",
+        "Height": "80 cm",
+        "Material": "Custom patina and metal coating",
+        "Max. width": "To be confirmed by the studio",
+        "Depth": "To be confirmed by the studio"
+      },
+      "url": "/works/constantine-the-great-sismanogleio.html"
+    },
+    {
+      "slug": "davy-crockett-at-the-alamo",
+      "title": "Davy Crockett on March 6, 1836 at The Alamo",
+      "spec": {
+        "Reference": "PPS-20",
+        "Collection": "National Archives and Records Administration",
+        "Sector": "Museum",
+        "Year": "2025",
+        "Status": "In collection",
+        "Height": "46 cm",
+        "Max. width": "36 cm",
+        "Material": "24K double gold leaf",
+        "Depth": "To be confirmed by the studio"
+      },
+      "url": "/works/davy-crockett-at-the-alamo.html"
+    },
+    {
+      "slug": "constantine-and-the-vision-of-the-cross",
+      "title": "Constantine and the Vision of the Cross (Girders from 9/11)",
+      "spec": {
+        "Reference": "PPS-21",
+        "Collection": "Dormition of the Virgin Mary Greek Orthodox Cathedral of the Hamptons",
+        "Sector": "Religious",
+        "Year": "2025",
+        "Status": "Installed",
+        "Height": "134 cm",
+        "Max. width": "116.1 cm",
+        "Material": "Brass head and light-bronze toga over recycled plastic",
+        "Depth": "To be confirmed by the studio",
+        "Exposed base height": "107.2 cm",
+        "Sculpture and base, overall": "241.2 cm"
+      },
+      "url": "/works/constantine-and-the-vision-of-the-cross.html",
+      "dimensionSource": "Studio final measurement sheet, 11 September 2025; excludes separate cross."
+    },
+    {
+      "slug": "constantine-the-great",
+      "title": "Constantine and the Vision of the Cross (Reduction for His All-Holiness Patriarch Bartholomew)",
+      "spec": {
+        "Reference": "PPS-22",
+        "Collection": "Ecumenical Patriarchate of Constantinople",
+        "Sector": "Religious",
+        "Year": "2025",
+        "Status": "Installed",
+        "Height": "28 cm",
+        "Max. width": "34 cm",
+        "Material": "24K double gold leaf over resin; carved onyx base",
+        "Depth": "To be confirmed by the studio"
+      },
+      "url": "/works/constantine-the-great.html"
+    },
+    {
+      "slug": "constantine-the-great-archdiocese",
+      "title": "Constantine the Great (New York)",
+      "spec": {
+        "Reference": "PPS-23",
+        "Collection": "Greek Orthodox Archdiocese of America",
+        "Sector": "Religious",
+        "Year": "2025",
+        "Status": "Installed",
+        "Height": "80 cm",
+        "Max. width": "65 cm",
+        "Material": "Brass face and light-bronze toga",
+        "Depth": "To be confirmed by the studio"
+      },
+      "url": "/works/constantine-the-great-archdiocese.html"
+    },
+    {
+      "slug": "refugee-simonopetra",
+      "title": "Refugee",
+      "spec": {
+        "Reference": "PPS-24",
+        "Collection": "Simonopetra Monastery",
+        "Sector": "Religious",
+        "Year": "2025",
+        "Status": "Installed",
+        "Material": "Bronze metal coating",
+        "Height": "To be confirmed by the studio",
+        "Max. width": "To be confirmed by the studio",
+        "Depth": "To be confirmed by the studio"
+      },
+      "url": "/works/refugee-simonopetra.html"
+    },
+    {
+      "slug": "thalia-tiffany-toronto",
+      "title": "Thalia (Tiffany Blue)",
+      "spec": {
+        "Reference": "PPS-25",
+        "Collection": "Tiffany & Co. Toronto",
+        "Sector": "Corporate",
+        "Year": "2026",
+        "Status": "Installation in process",
+        "Material": "Tiffany blue patina",
+        "Height": "To be confirmed by the studio",
+        "Max. width": "To be confirmed by the studio",
+        "Depth": "To be confirmed by the studio"
+      },
+      "url": "/works/thalia-tiffany-toronto.html"
+    },
+    {
+      "slug": "thalia-tiffany-champs-elysees",
+      "title": "Thalia (Tiffany Blue)",
+      "spec": {
+        "Reference": "PPS-26",
+        "Collection": "Tiffany & Co. Champs-Élysées",
+        "Sector": "Corporate",
+        "Year": "2026",
+        "Status": "Installation in process",
+        "Material": "Tiffany blue patina over brass coating",
+        "Height": "To be confirmed by the studio",
+        "Max. width": "To be confirmed by the studio",
+        "Depth": "To be confirmed by the studio"
+      },
+      "url": "/works/thalia-tiffany-champs-elysees.html"
+    },
+    {
+      "slug": "jefferson-in-paris",
+      "title": "Jefferson in Paris",
+      "spec": {
+        "Reference": "PPS-27",
+        "Collection": "Embassy of the United States, Paris",
+        "Sector": "Government",
+        "Year": "2026",
+        "Status": "Installation in process",
+        "Height": "85 cm",
+        "Material": "Brass head; necktie in medium bronze coating",
+        "Max. width": "To be confirmed by the studio",
+        "Depth": "To be confirmed by the studio"
+      },
+      "url": "/works/jefferson-in-paris.html"
+    },
+    {
+      "slug": "kore-ii",
+      "title": "Kore II",
+      "spec": {
+        "Reference": "PPS-28",
+        "Collection": "General Children’s Hospital of Athens ‘Panagiotis & Aglaia Kyriakou’",
+        "Sector": "Healthcare",
+        "Year": "2026",
+        "Status": "Installed",
+        "Height": "75 cm",
+        "Max. width": "57 cm",
+        "Material": "Gold patina and matte topcoat over a resin face and 3D-printed recycled PETG",
+        "Depth": "To be confirmed by the studio"
+      },
+      "url": "/works/kore-ii.html"
+    },
+    {
+      "slug": "medusa-of-serifos",
+      "title": "Large Head of Medusa",
+      "spec": {
+        "Reference": "PPS-29",
+        "Collection": "Archaeological Museum of Serifos",
+        "Sector": "Museum",
+        "Year": "2026",
+        "Status": "Installed",
+        "Height": "75 cm",
+        "Material": "Oxidized copper finish on the face and wings; iron on the hair; aluminium on the snakes. Metal coatings over 3D-printed recycled PETG.",
+        "Max. width": "80 cm",
+        "Depth": "To be confirmed by the studio"
+      },
+      "url": "/works/medusa-of-serifos.html",
+      "dimensionSource": "Studio revised installation instructions, 25 May 2026; diameter including hair."
+    },
+    {
+      "slug": "court-tennis-underarm-twist-serve",
+      "title": "Court Tennis: Underarm Twist Serve",
+      "spec": {
+        "Reference": "PPS-30",
+        "Collection": "Tennis & Rackets Association, The Queen’s Club",
+        "Sector": "Museum",
+        "Year": "2026",
+        "Status": "Installation in process",
+        "Height": "59 cm",
+        "Material": "Palladium leaf over a hand-worked resin body",
+        "Max. width": "To be confirmed by the studio",
+        "Depth": "To be confirmed by the studio"
+      },
+      "url": "/works/court-tennis-underarm-twist-serve.html"
+    },
+    {
+      "slug": "head-of-medusa-perama",
+      "title": "Head of Medusa",
+      "spec": {
+        "Reference": "PPS-31",
+        "Collection": "Maritime Tradition Museum of Perama",
+        "Sector": "Museum",
+        "Year": "2026",
+        "Status": "Installed",
+        "Height": "70 cm",
+        "Material": "Iron and copper patina, metal coating",
+        "Max. width": "To be confirmed by the studio",
+        "Depth": "To be confirmed by the studio"
+      },
+      "url": "/works/head-of-medusa-perama.html"
+    },
+    {
+      "slug": "jefferson-in-athens",
+      "title": "Jefferson in Athens",
+      "spec": {
+        "Reference": "PPS-32",
+        "Collection": "Jefferson House, Residence of the U.S. Ambassador to Greece",
+        "Sector": "Government",
+        "Year": "2026",
+        "Status": "Installation in process",
+        "Height": "100 cm excl. base",
+        "Max. width": "100 cm",
+        "Material": "Brass head; necktie in medium bronze coating",
+        "Depth": "To be confirmed by the studio"
+      },
+      "url": "/works/jefferson-in-athens.html"
+    },
+    {
+      "slug": "egymonousa-tzaneio",
+      "title": "Egymonousa",
+      "spec": {
+        "Reference": "PPS-33",
+        "Collection": "Tzaneio Hospital",
+        "Sector": "Healthcare",
+        "Year": "2026",
+        "Status": "Installed",
+        "Height": "110 cm excl. base",
+        "Material": "Brass coating over recycled PETG",
+        "Max. width": "To be confirmed by the studio",
+        "Depth": "To be confirmed by the studio"
+      },
+      "url": "/works/egymonousa-tzaneio.html"
+    },
+    {
+      "slug": "egymonousa-elena-venizelou",
+      "title": "Egymonousa",
+      "spec": {
+        "Reference": "PPS-34",
+        "Collection": "Elena Venizelou Hospital",
+        "Sector": "Healthcare",
+        "Year": "2026",
+        "Status": "Installed",
+        "Height": "110 cm excl. base",
+        "Material": "Brass coating over recycled PETG",
+        "Max. width": "To be confirmed by the studio",
+        "Depth": "To be confirmed by the studio"
+      },
+      "url": "/works/egymonousa-elena-venizelou.html"
+    },
+    {
+      "slug": "egymonousa-alexandra",
+      "title": "Egymonousa",
+      "spec": {
+        "Reference": "PPS-35",
+        "Collection": "Alexandra Hospital",
+        "Sector": "Healthcare",
+        "Year": "2026",
+        "Status": "Installed",
+        "Height": "110 cm excl. base",
+        "Material": "Brass coating over recycled PETG",
+        "Max. width": "To be confirmed by the studio",
+        "Depth": "To be confirmed by the studio"
+      },
+      "url": "/works/egymonousa-alexandra.html"
+    },
+    {
+      "slug": "egymonousa-venizeleio",
+      "title": "Egymonousa",
+      "spec": {
+        "Reference": "PPS-36",
+        "Collection": "Venizeleio-Pananeio General Hospital",
+        "Sector": "Healthcare",
+        "Year": "2026",
+        "Status": "Installed",
+        "Height": "110 cm excl. base",
+        "Material": "Brass coating over recycled PETG",
+        "Max. width": "To be confirmed by the studio",
+        "Depth": "To be confirmed by the studio"
+      },
+      "url": "/works/egymonousa-venizeleio.html"
+    },
+    {
+      "slug": "janus-of-love",
+      "title": "Janus of Love",
+      "spec": {
+        "Reference": "PPS-38",
+        "Collection": "Embassy of Greece, London — Ambassador’s Residence",
+        "Sector": "Government",
+        "Year": "2026",
+        "Status": "Installation in process",
+        "Height": "88 cm excl. base",
+        "Max. width": "65 cm",
+        "Material": "Recycled PETG recovered from medical packaging, brass coating, custom blue patina with brass highlights",
+        "Depth": "To be confirmed by the studio"
+      },
+      "url": "/works/janus-of-love.html"
+    },
+    {
+      "slug": "large-head-of-thalia-sifnos",
+      "title": "Large Head of Thalia (Gold and Silver)",
+      "spec": {
+        "Reference": "PPS-39",
+        "Collection": "Archaeological Collection of Sifnos",
+        "Sector": "Museum",
+        "Expected completion": "2027",
+        "Status": "Installation in process",
+        "Height": "To be confirmed by the studio",
+        "Max. width": "To be confirmed by the studio",
+        "Depth": "To be confirmed by the studio",
+        "Material": "To be confirmed by the studio"
+      },
+      "url": "/works/large-head-of-thalia-sifnos.html"
+    },
+    {
+      "slug": "heroines-of-1821-war-museum",
+      "title": "Heroines of 1821",
+      "spec": {
+        "Reference": "PPS-40",
+        "Collection": "War Museum, Athens",
+        "Sector": "Museum",
+        "Expected completion": "2027",
+        "Status": "Installation in process",
+        "Material": "Patina over copper over a PETG body",
+        "Height": "To be confirmed by the studio",
+        "Max. width": "To be confirmed by the studio",
+        "Depth": "To be confirmed by the studio"
+      },
+      "url": "/works/heroines-of-1821-war-museum.html"
+    },
+    {
+      "slug": "heroines-of-1821-spetses",
+      "title": "Heroines of 1821",
+      "spec": {
+        "Reference": "PPS-41",
+        "Collection": "Municipality of Spetses, Agios Yannis church, Kounoupitsa",
+        "Sector": "Religious",
+        "Expected completion": "2027",
+        "Status": "Installation in process",
+        "Material": "Patina over copper over a PETG body",
+        "Height": "To be confirmed by the studio",
+        "Max. width": "To be confirmed by the studio",
+        "Depth": "To be confirmed by the studio"
+      },
+      "url": "/works/heroines-of-1821-spetses.html"
+    }
+  ],
+  "tour": [
+    [
+      "2022",
+      "Washington, D.C.",
+      "Embassy of Greece"
+    ],
+    [
+      "2022",
+      "Southampton, New York",
+      "The Muses"
+    ],
+    [
+      "2022",
+      "Brookline, Massachusetts",
+      "Malliotis Cultural Center"
+    ],
+    [
+      "2023–2024",
+      "Chicago",
+      "National Hellenic Museum"
+    ],
+    [
+      "2024",
+      "Venice",
+      "San Giorgio dei Greci"
+    ],
+    [
+      "2025",
+      "Istanbul",
+      "Sismanogleio Mansion · Consulate General of Greece"
+    ],
+    [
+      "2026",
+      "Paris",
+      "Embassy of Greece"
+    ],
+    [
+      "9 Sep 2026 – 8 Jan 2027",
+      "Berlin",
+      "Embassy of Greece"
+    ]
+  ],
+  "healthcare_programme": {
+    "updated": "2026-10-21",
+    "total_projects": 10,
+    "installed": 7,
+    "in_process_to_be_announced": 3,
+    "note": "Three unannounced pipeline projects are tracked separately from the named artwork catalogue.",
+    "source": "Status and pipeline confirmed by George Petrides on 21 October 2026."
+  }
+}
