@@ -183,3 +183,10 @@ textarea{min-height:140px;resize:vertical}
 @media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
 
 [data-needs-list][hidden]{display:none!important}
+/* family-of-sites strip and on-request note (November 2026) */
+.family{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 26px;border-top:1px solid var(--rule);margin-top:32px;padding-top:22px;font-size:15px}
+.family .family-label{font-size:13px;font-weight:500;letter-spacing:.04em;color:var(--gold-ink)}
+.family a{text-decoration:none;color:var(--muted)}.family a:hover{color:var(--gold-ink)}
+.family .here{color:var(--ink);border-bottom:1px solid var(--gold-ink)}
+.on-request{color:var(--muted);font-size:15px;margin-top:28px;margin-bottom:56px}
+.on-request a{color:inherit}
