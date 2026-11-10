@@ -1,0 +1,5 @@
+Public Art & Health. Το δομημένο περιβάλλον σε μονάδες ψυχικής υγείας. Research record PAH-062. Edition 4.11, 29 September 2026. https://www.publicart.health/el/research/pah-062
+
+Underlying source citation (as listed in the repository):
+Rodríguez-Labajos L, Kinloch J, Grant S, O’Brien G. The role of the built environment as a therapeutic intervention in mental health facilities: a systematic literature review. HERD. 2024;17(2):281–308.
+https://pubmed.ncbi.nlm.nih.gov/38385552/

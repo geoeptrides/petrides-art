@@ -1,0 +1,39 @@
+﻿dataset,field,definition,allowed_values,notes
+evidence,id / record_id,"Stable research-record identifier (PAH-nnn). A record is an entry in the library, not a unique study.",PAH-001 to PAH-079; PAH-020 not used,
+evidence,scope,Relevance of the record to installed art in healthcare.,Healthcare art; Adjacent evidence; Mechanisms; Practice; Policy & context,"Relevance, not confidence"
+evidence,study_type / evidence_type,Design or kind of material.,Randomised trial; Observational / experimental; Cross-sectional mixed-methods study; Qualitative study (as described); Descriptive survey; Uncontrolled evaluation; Review; Theory; Research gap; Programme / guidance; Policy / context,
+evidence,evidence_family,"Kind of evidence, not a quality grade.",Outcome research; Practice documentation; Mechanism or theory; Policy or guidance,Derived from scope and type in Edition 4.6; see evidence_family_basis
+evidence,sculpture_attribution,How sculpture figures in the record.,Isolated intervention; Part of a mixed collection or intervention; Outside healthcare; Discussed without evaluation; No sculpture component; Not yet coded,Coded for sculpture-related records and PAH-077 to PAH-079
+evidence,exposure,"Permanence of the art encountered, as established by the source. The study’s observation period is recorded separately and does not establish permanence.",Permanent; Temporary; Simulated; Unclear; free text where combined; Not yet coded,
+evidence,encounter,How people encountered the art; combined components listed separately.,Incidental viewing; Deliberate unguided viewing; Facilitated viewing; Touch or interaction; Art-making; Not reported; Not yet coded,
+evidence,result_signal / finding_labels,Summary label for the record; full findings take precedence.,Reported benefit; Mixed findings; Includes null findings; Includes unfavourable findings; Context / synthesis,"Applies to the record, not every outcome"
+evidence,appraisal_status,"What has been assessed, and when.",Full text assessed; Abstract checked; Abstract assessed (earlier wording); Abstract or primary source checked; Secondary account; Not recorded in structured form; Independently reviewed (not yet used); Not yet coded,
+evidence,publication_study_links,Bibliographic overlap and cohort relationship note; not a unique-study identifier.,Free text,Two confirmed shared-publication groups are documented in Edition 4.11; source-by-source and participant-level reconciliation remains incomplete.
+evidence,outcome_rows,"Outcome-level data (measure, time point, denominator, result, uncertainty).",Not yet extracted; Structured summary extracted,Structured summaries for PAH-016 PAH-031 and PAH-038 added in Edition 4.8 (field structured_summary in JSON)
+evidence,legacy_grade,Retired A–E grade from earlier editions.,A–E or empty,Historical metadata only; not a current rating; not GRADE
+installations,id,"Stable installation identifier (W-nn). One record is one artwork, or one ensemble presented as a single work, at one institution.",W-01 to W-36,Published identifiers are retained
+installations,source_category,Kind of source the record cites.,Institution or artist source; Independent sources only; Awaiting institutional confirmation,Not a claim that every detail is verified
+installations,source_category_assigned,Date the source category was assigned.,ISO date,Not a date of full verification
+installations,claim_verification,"Which details were checked against a named source, and when.","Free text; ""Not yet completed claim by claim""",See the verification ledger
+installations,current_status,What is known about whether the work is in place.,"Free text; ""Not confirmed...""",Historical sources do not confirm present location
+installations,institutional_enquiry,Date an enquiry was sent to the institution.,ISO date or null,
+installations,image_display,Whether an image is displayed.,Displayed; Withdrawn (with date and reason); No image: awaiting permission,
+installations,image_basis,Publication basis for a displayed image.,"Licence name, or supplied by the founder",Photo permission and artwork-reproduction review are separate
+installations,evaluation_work_specific,Outcome evidence about this work.,Study linked; No eligible study identified in the sources reviewed; Not yet searched,
+installations,evaluation_collection_level,Evidence about a collection that includes the work.,Record IDs; Not assessed,Never attributed to the individual work
+installations,consulted,Participation in selection or design.,"Free text; ""Not published""","Missing information is not ""no consultation"""
+installations,founder,Work by the site founder.,true / false,Disclosed example of practice; not evidence of health benefit
+ledger,claim,The published detail being tracked.,title; attribution; institution; location; material; dimensions; date; current status,
+ledger,check_status,Whether the claim has been checked.,Checked against source; Conflicting sources; Not yet checked claim by claim,
+installations,institutional_enquiry_status,Whether an enquiry to the institution was sent and retained.,"Sent (date; correspondence retained); Prepared, not sent (reason); Not yet prepared",
+installations,last_documented_source_date,Date of the latest source documenting the work at its recorded location.,ISO date or year; null if not recorded,Not a confirmation of current placement
+installations,image_date,Date the displayed photograph was taken or published.,ISO date; null if not recorded,Kept separate from last_documented_source_date
+ledger,reviewer,Who performed the check.,Editorial team,An independent reviewer has not yet been appointed
+installations,lifecycle_status,Whether the record documents placement or a project still in progress.,Documented placement (current status varies); Installation in progress,Documented placement does not confirm present location.
+evidence,updated,Date the record data was last updated.,ISO date,Separate from the last full editorial audit; does not imply full-text or independent review.
+ledger,record_verification_note,Existing record-level verification statement carried into the current snapshot.,Free text,Not a new verification performed during the technical QC release.
+ledger,data_snapshot_date,Date the ledger was reconciled to the published data.,ISO date,Not the date of verification of each claim.
+evidence,publication_groups,Confirmed shared-publication group IDs; not unique-study IDs.,,
+evidence,related_research_records,Other record IDs sharing a confirmed publication.,,
+evidence,record_url,Permanent English research-record URL.,,
+evidence,reconciliation_updated,"Date of the bibliographic relationship update, not a new study appraisal.",,

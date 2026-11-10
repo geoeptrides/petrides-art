@@ -1,0 +1,101 @@
+Evaluation framework
+Hospital sculpture evaluation: a planning template
+A proposed template for planning a study of one installed work. It requires local adaptation and review by a qualified methodologist. It is not a validated clinical protocol, and no hospital partner or completed study is implied.
+
+1. Question and intervention
+
+Choose one primary question before recruitment and name the population it concerns. A worked example for an entrance: does introducing a specified sculpture change the immediate state anxiety of adult visitors using this entrance, compared with the change over the same period at a comparable entrance without the installation? A site that cares most about finding the way could instead choose route-finding success as its primary outcome. Other measures can be reported as secondary or exploratory, not as additional primary outcomes.
+
+Describe the whole intervention: the work, pedestal, plaque, lighting, planting, seating and any interpretation or guided activity. If several of these change at once, the package is what is being evaluated. Estimating the contribution of the sculpture alone needs a design that can separate it from the other changes.
+
+Primary question | [one question, including population, outcome and comparison] |
+
+Population | [for example: adult visitors using the main entrance on weekdays] |
+
+Intervention package | [work, artist, dimensions, material, position, pedestal, plaque, lighting, planting, seating, interpretation] |
+
+Installation date and concurrent changes | [dates; refurbishment, staffing, signage or service changes] |
+
+2. Comparison and schedule
+
+Take repeated observations before and after installation at the intervention site and at one or more comparison sites. Several comparable entrances or institutions are better than one, and randomising the timing of installation helps where it is operationally possible. With one intervention entrance and one comparison entrance, differences between the sites are hard to separate from the effect of the work, and the result applies mainly to that site.
+
+Phase | Example planning window |
+
+Preparation | Agree the question, comparator, eligibility, measures, staffing, consent route and analysis plan; consult patient and access representatives; test the burden of recruitment. |
+
+Baseline | About four weeks of comparable days and times, recording footfall, waiting conditions and building activity. |
+
+Installation | Log dates and concurrent changes. Keep construction disruption and launch events apart from routine use. |
+
+Early follow-up | Repeat the baseline schedule once routine operation resumes, at a time chosen in advance. |
+
+Later follow-up | About three months after installation, to see whether an early novelty response persists. A twelve-month check can cover continued use and maintenance. |
+
+These windows are planning examples, not scientifically required intervals. Match them to patient flow, season, the expected mechanism and resources; if seasons differ, the comparison and analysis must allow for it.
+
+3. Recruitment and exposure
+
+Decide in advance between repeated cross-sectional samples, which compare average states between periods, and a paired design that follows the same people. Use consistent days, times and eligibility rules, and invite eligible passers-by with neutral wording about the hospital environment before asking about art. Do not recruit only people who stop to look at the work.
+
+Keep a recruitment log of people approached, eligible, declining and completing. Record each participant’s role (patient, visitor or staff), how often they attend, whether the work was visible to them, whether they noticed it, and their approximate exposure. Analyse the main predefined sample first; comparisons of people who noticed or stopped are exploratory, because noticing and stopping are self-selected and may themselves be affected by the work.
+
+Sampling design | [repeated cross-sectional or paired] |
+
+Eligibility and schedule | [days, times, locations, inclusion and exclusion rules] |
+
+Recruitment log | [approached / eligible / declined / completed, per session] |
+
+Exposure items | [role, attendance frequency, visibility, noticed (yes/no), approximate time near the work] |
+
+4. Measures
+
+Domain | Proposed measure |
+
+Primary emotional outcome | A short validated state-anxiety measure suitable for the population and language, chosen with the research team. Check permissions, scoring and translation. |
+
+Experience of the space | Brief items on welcome, comfort or pleasantness, reported separately and labelled as unvalidated if written locally. |
+
+Navigation | For a wayfinding question: predefined route completion, wrong turns or requests for help. Confidence and performance are different outcomes. |
+
+Encounter and behaviour | Noticing, dwell time, stopping and observed conversation, using a written coding scheme checked between observers. |
+
+Unfavourable responses | Neutral questions about discomfort, confusion, dislike, unwanted memories, obstruction or sensory overload. |
+
+Explanation | Optional short interviews with varied users, including people who ignore or dislike the work, with consent for recordings and quotations. |
+
+Operations | Cleaning and conservation time, access complaints, damage and documented costs, to inform stewardship rather than claims of financial return. |
+
+WHO-5 and WEMWBS ask about wellbeing over a recall period and should not be used to measure the immediate effect of walking past a work. Longer-term staff wellbeing needs its own exposure model and follow-up. Physiological and clinical measures are optional research modules, not default additions to a visitor survey.
+
+5. Sample size and analysis
+
+Give a sample-size rationale based on the primary outcome: the smallest difference that would matter, the expected variability, clustering by site and period, and anticipated missing data. There is no universal adequate number of respondents, and more respondents at one entrance do not create more independent sites.
+
+For a controlled before-and-after design, estimate the change at the intervention site relative to the change at the comparison site; inspect repeated baseline measurements where available and state the assumptions. Account for time, site, repeated individuals and prespecified confounders. Report effect sizes with confidence intervals, missing data and sensitivity analyses, and separate prespecified from exploratory results. Longer dwell time is not evidence of lower anxiety, recognition is not evidence of better navigation, and favourable comments are not evidence of clinical benefit. A finding of no detected difference may reflect a small effect or imprecise measurement.
+
+Smallest important difference | [value and justification] |
+
+Sample-size calculation | [method, assumptions, clustering, missingness] |
+
+Primary analysis | [model, comparison, adjustment variables] |
+
+Sensitivity and exploratory analyses | [list, labelled as exploratory] |
+
+6. Oversight, independence and reporting
+
+Obtain the institution’s decision on whether the project is research, service evaluation or quality improvement, and follow the review and consent route that applies. Use adapted measures and consent for children and other groups that need them, and collect no identifiable clinical information unless the question requires it. Plan for accessibility, including participants who cannot see, reach or stop near the work.
+
+Register the protocol and analysis plan before data collection where appropriate. Name the independent evaluator and disclose the interests of artists, donors, funders and the institution; the artist or donor should not control the analysis or the reporting of unfavourable findings. Publish the questionnaire, intervention description, analysis and all results, including null and unfavourable findings, and share de-identified data where permitted. The RAARR reporting guidance can help; it is a reporting aid, not a quality certificate.
+
+Institutional determination | [research / service evaluation / quality improvement; reference] |
+
+Consent route and data protection | [description] |
+
+Independent evaluator | [name, affiliation, interests] |
+
+Registration and publication commitment | [registry, date; commitment to publish null or unfavourable findings] |
+
+Reporting checklist | [RAARR items completed] |
+
+Proposed template, Edition 4.6, 28 September 2026. It follows the general approach of evaluating complex interventions in context (Medical Research Council guidance, Skivington et al., BMJ 2021). It has not yet been reviewed by an appointed independent methodologist.

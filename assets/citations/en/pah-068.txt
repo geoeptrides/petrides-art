@@ -1,0 +1,5 @@
+Public Art & Health. Population-level thinking about health exposures. Research record PAH-068. Edition 4.11, 29 September 2026. https://www.publicart.health/research/pah-068
+
+Underlying source citation (as listed in the repository):
+Rose G. Sick individuals and sick populations. Int J Epidemiol. 1985;14(1):32–38.
+https://doi.org/10.1093/ije/14.1.32

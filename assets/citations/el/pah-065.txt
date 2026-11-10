@@ -1,0 +1,5 @@
+Public Art & Health. Κριτική της τεκμηρίωσης για παρεμβάσεις μέσω των τεχνών. Research record PAH-065. Edition 4.11, 29 September 2026. https://www.publicart.health/el/research/pah-065
+
+Underlying source citation (as listed in the repository):
+Skov M, Nadal M. Can arts-based interventions improve health? A conceptual and methodological critique. Phys Life Rev. 2025;53:239–259.
+https://doi.org/10.1016/j.plrev.2025.03.003

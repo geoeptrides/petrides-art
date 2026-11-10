@@ -1,0 +1,14 @@
+.language-switch{display:flex;align-items:center;gap:.25rem;flex-shrink:0}
+.language-switch a{padding:.4rem .65rem;border:1px solid transparent;border-radius:3px;font:500 .85rem/1.3 var(--sans);text-decoration:none;color:inherit;white-space:nowrap}
+.language-switch a[aria-current=true]{border-color:currentColor;background:#fff}
+.language-switch a:hover,.language-switch a:focus-visible{background:#eee9df;outline-offset:3px}
+.translation-note{max-width:42ch;margin-top:1rem}
+
+
+
+
+html[lang=el] .primary{flex-wrap:wrap}
+
+html[lang=el] h1{overflow-wrap:normal;hyphens:none}
+@media(max-width:720px){.topline{flex-wrap:wrap;gap:.6rem}.language-switch{margin-left:auto}.language-switch a{padding:.4rem .5rem}html[lang=el] .entry-routes .btn{white-space:normal;text-align:center}html[lang=el] .edition{font-size:.68rem}}
+@media print{.language-switch{display:none}}

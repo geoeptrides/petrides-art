@@ -1,0 +1,37 @@
+/* Edition 4.11 tools use the site's typography, focus styles and colour palette. */
+html:not(.js) .js-only{display:none}
+.source-relationship,.citation-panel,.publication-group,.budget-summary,.submission-review{border:1px solid #b8c7bf;border-radius:8px;padding:24px;margin:24px 0;background:#f4f7f4}
+.source-relationship h3,.citation-panel h2,.budget-summary h2{margin-top:0}
+.record-page-link{margin-top:18px}
+.count-note{border-left:4px solid #365f4b;padding:12px 18px;background:#f0f5f1}
+.record-jump{display:flex;flex-wrap:wrap;gap:8px;margin:20px 0}
+.record-jump a{border:1px solid #b8c7bf;padding:7px 12px;border-radius:4px}
+.verification-card{border-top:1px solid #b8c7bf;padding:24px 0;scroll-margin-top:100px}
+.verification-card h2{margin-top:0}
+.verification-checks{margin-top:18px}
+.claim-checks{padding:0;list-style:none;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:20px 0}
+.claim-checks .claim{border:1px solid #b8c7bf;padding:16px;min-width:0;background:#fff;border-left-width:4px}
+.claim-checks .conflict{border-left-color:#8a431b}
+.claim-checks .checked{border-left-color:#365f4b}
+.claim h3,.claim h4{margin:0 0 8px}.claim p{margin:8px 0;overflow-wrap:anywhere}
+.tool-form{max-width:100%;margin:24px 0}.tool-form fieldset{min-width:0;border:1px solid #b8c7bf;border-radius:6px;margin:20px 0;padding:20px}
+.tool-form legend{font-weight:600;max-width:100%;padding:0 8px;font-size:1.05rem}
+.tool-form label,.submission-review label{display:block;font-size:.95rem;font-weight:500;margin:10px 0;min-width:0}
+.tool-form input,.tool-form select,.tool-form textarea,.submission-review textarea{display:block;width:100%;max-width:100%;box-sizing:border-box;padding:10px 12px;margin-top:7px;border:1px solid #65776b;border-radius:4px;color:#182b22;background:#fff;font:inherit;min-height:44px}
+.tool-form textarea,.submission-review textarea{resize:vertical}
+.tool-form input:focus-visible,.tool-form select:focus-visible,.tool-form textarea:focus-visible{outline:3px solid #365f4b;outline-offset:2px}
+.tool-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:4px 20px}
+.cost-fields{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
+.budget-totals{display:block;margin:0}.budget-totals>div{display:flex;justify-content:space-between;gap:24px;border-bottom:1px solid #cdd8d0;padding:10px 0}
+.budget-totals dt{flex:1}.budget-totals dd{font-variant-numeric:tabular-nums;margin:0;font-weight:600;text-align:right;overflow-wrap:anywhere}
+.budget-totals .total{font-size:1.3rem;border-top:2px solid #365f4b}.budget-totals .gift{font-size:.9rem}
+[data-budget-error]:not(:empty){color:#842c1c;font-weight:500}[role=status]:not(:empty){padding:12px 0}
+.actions{flex-wrap:wrap}.tool-print-value{display:none}
+@media(max-width:760px){.tool-grid,.cost-fields,.claim-checks{grid-template-columns:1fr 1fr}.source-relationship,.citation-panel,.publication-group,.budget-summary,.submission-review{padding:18px}.budget-totals>div{gap:12px}.budget-totals .total{font-size:1.1rem}}
+@media(max-width:480px){.tool-grid,.cost-fields,.claim-checks{grid-template-columns:1fr}.tool-form fieldset{padding:14px}.budget-totals>div{display:block}.budget-totals dd{text-align:left;margin-top:6px}.actions>*{max-width:100%;white-space:normal}}
+@media print{.no-print,.record-jump,.tool-form button,[data-budget-status]{display:none!important}.tool-form [hidden]{display:none!important}[data-print-form] input,[data-print-form] select,[data-print-form] textarea{display:none!important}.tool-print-value{display:block;white-space:pre-wrap;overflow-wrap:anywhere;font-weight:400;padding:6px 0}.tool-form fieldset{break-inside:avoid}.budget-summary{break-inside:avoid;background:transparent}.tool-grid,.cost-fields{grid-template-columns:repeat(2,minmax(0,1fr))}.claim-checks{display:block}.claim-checks li{break-inside:avoid}.citation-panel .actions{display:none}}
+
+.tool-form [hidden],.submission-review[hidden]{display:none!important}
+.js .tool-form.js-only{display:block}
+@media print{.js .tool-form[data-print-form]{display:block!important}}
+@media print{.tool-form legend{font-size:10pt}.tool-form label{font-size:9pt;margin:3px 0}.tool-form fieldset{margin:8px 0;padding:8px}.tool-print-value{padding:0}.cost-fields{grid-template-columns:repeat(4,minmax(0,1fr))}}

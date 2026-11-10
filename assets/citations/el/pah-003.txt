@@ -1,0 +1,5 @@
+Public Art & Health. Μια ανασκόπηση για τις τέχνες σε χειρουργικούς ασθενείς αφορούσε κυρίως τη μουσική. Research record PAH-003. Edition 4.11, 29 September 2026. https://www.publicart.health/el/research/pah-003
+
+Underlying source citation (as listed in the repository):
+Vetter D, Barth J, Uyulmaz S, et al. Effects of art on surgical patients: a systematic review and meta-analysis. Ann Surg. 2015;262(5):704–713.
+https://pubmed.ncbi.nlm.nih.gov/26583656/

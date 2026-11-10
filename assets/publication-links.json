@@ -1,0 +1,39 @@
+{
+  "updated": "2026-09-29",
+  "scope": "Confirmed citation overlaps, not a complete unique-study register",
+  "groups": [
+    {
+      "id": "PUB-FOSTER-2025",
+      "title": "Foster et al. (2025): scoping review",
+      "url": "https://doi.org/10.1371/journal.pone.0328215",
+      "records": [
+        "PAH-004",
+        "PAH-005",
+        "PAH-006",
+        "PAH-007",
+        "PAH-026"
+      ],
+      "note": "These five records cite the same review. PAH-026 also cites a separate accessibility paper. The 2026 correction belongs to this review and is not a new study. The underlying studies included by the review have not been matched against every other record.",
+      "note_el": "Αυτές οι πέντε εγγραφές παραπέμπουν στην ίδια ανασκόπηση. Η PAH-026 παραπέμπει επίσης σε ξεχωριστό άρθρο προσβασιμότητας. Η διόρθωση του 2026 αφορά την ίδια ανασκόπηση και δεν αποτελεί νέα μελέτη. Οι μελέτες που περιλαμβάνει η ανασκόπηση δεν έχουν αντιστοιχιστεί με όλες τις άλλες εγγραφές."
+    },
+    {
+      "id": "PUB-KARNIK-2014",
+      "title": "Karnik, Printz & Finkel (2014): Cleveland Clinic",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24782236/",
+      "records": [
+        "PAH-024",
+        "PAH-033"
+      ],
+      "note": "Both records cite the same 2014 paper. PAH-024 also mentions a 2021 paper; PAH-033 also discusses a 2024 institutional survey. Those additional sources are not treated as the same study. Participant overlap has not been established.",
+      "note_el": "Και οι δύο εγγραφές παραπέμπουν στο ίδιο άρθρο του 2014. Η PAH-024 αναφέρει επίσης άρθρο του 2021· η PAH-033 περιλαμβάνει έρευνα του φορέα το 2024. Οι πρόσθετες πηγές δεν θεωρούνται η ίδια μελέτη. Δεν έχει προσδιοριστεί η επικάλυψη συμμετεχόντων."
+    }
+  ],
+  "shared_cohort": {
+    "cohort": "ELSA",
+    "records": [
+      "PAH-045",
+      "PAH-046"
+    ],
+    "participant_overlap": "Not quantified"
+  }
+}

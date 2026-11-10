@@ -1,0 +1,5 @@
+Public Art & Health. Room artwork improved perceptions, with no detected clinical benefit. Research record PAH-016. Edition 4.11, 29 September 2026. https://www.publicart.health/research/pah-016
+
+Underlying source citation (as listed in the repository):
+George DR, de Boer C, Hammer J, Hopkins M, King T, Green MJ. Evaluating the benefits of hospital room artwork for patients receiving cancer treatment: a randomized controlled trial. J Hosp Med. 2018;13(8):558-561. doi:10.12788/jhm.2915
+https://pubmed.ncbi.nlm.nih.gov/29401210/
