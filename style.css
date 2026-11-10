@@ -201,3 +201,12 @@ html[dir=rtl] .footer-cols a{font-size:17px}
 @media(max-width:620px){.footer .links.footer-cols{grid-template-columns:1fr 1fr;gap:20px 24px}}
 
 .lang-note-bar{display:flex;justify-content:center;align-items:center;gap:14px;padding:9px 16px;background:#cdb07a;color:#191510;font:14px/1.4 system-ui,sans-serif}.lang-note{color:#191510;font-weight:600;text-decoration:underline}.lang-note-close{background:none;border:0;color:#191510;font-size:20px;line-height:1;cursor:pointer;padding:2px 6px}
+/* family-of-sites strip and hosting floor plan (November 2026) */
+.family{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 26px;margin-top:30px;padding-top:22px;border-top:1px solid #735a3755;font-size:15px}
+.family .family-label{color:var(--pale)}
+.family a{color:var(--dim);text-decoration:none}.family a:hover{color:var(--bone)}
+.family .here{color:var(--bone);border-bottom:1px solid var(--bronze)}
+.floor-plan{margin:28px 0 34px;max-width:620px}
+.floor-plan .plan-svg{display:block;width:100%;height:auto;color:var(--dim);background:var(--panel);border:1px solid #735a3755}
+.floor-plan figcaption{font-size:14px;line-height:1.65;margin-top:12px}
+@media print{.floor-plan .plan-svg{background:none;color:#333}}
